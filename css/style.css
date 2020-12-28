@@ -1,0 +1,30 @@
+
+@font-face {
+  font-family: 'Atkinson-Hyperlegible';
+  src: url('../fonts/Atkinson-Hyperlegible-Regular-102.ttf') format('truetype');
+}
+
+* { font-family: "Atkinson-Hyperlegible", sans-serif }
+
+table {
+  font-size: 14px;
+  border-collapse: collapse;
+  width: 600px;
+}
+
+td, th {
+  padding: 10px;
+  text-align: left;
+  margin: 0;
+}
+
+tbody tr:nth-child(2n){
+  background-color: #eee;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: white;
+}
